@@ -392,6 +392,7 @@ def loadGame1():
     btn_start = Button(parent = scene, icon='images/btn_start.png',
                        scale_x = 2.4, scale_y = 1.2, y=-10, x=0)
     btn_start.on_click = lambda: GameFunctions.rules2()
+    btn_start.always_on_top = True
     btn_yes = Button(parent = scene, always_on_top = True, icon='images/btn_yes.png',
                      scale_x = 1.2, scale_y = 1.2, y=-10, x=-1.6)
     btn_yes.on_click = lambda: GameFunctions.winss()
