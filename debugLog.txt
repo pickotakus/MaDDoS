@@ -1,0 +1,1 @@
+1. In game1, when demons are displeied if you select door 1 and deamon is in door 2, the pressing "f" button
